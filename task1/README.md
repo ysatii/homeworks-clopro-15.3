@@ -105,4 +105,8 @@ terraform отработал без ошибок
   ![Рисунок 14](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_14.jpg) 
   ![Рисунок 15](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_15.jpg) 
   ![Рисунок 16](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_16.jpg) 
+
+  проверка записи на https://xseo.in/dns
   ![Рисунок 17](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_17.jpg) 
+
+  нужно зайти https://bucket.melnik-it.ru/  !
