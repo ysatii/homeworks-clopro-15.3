@@ -57,13 +57,19 @@ runcmd:
   # Создаём index.html
   - |
       cat > /var/www/html/index.html << 'EOF'
-      <html>
+      <!doctype html>
+      <html lang="ru">
+        <head>
+          <meta charset="UTF-8" />
+          <title>Картинка из KMS-бакета</title>
+        </head>
         <body>
           <h1>Картинка из KMS-зашифрованного бакета</h1>
-          <img src="/netology.png" />
+          <img src="/netology.png" alt="Netology logo" />
         </body>
       </html>
       EOF
+
 
   # Перезапуск nginx
   - systemctl restart nginx
