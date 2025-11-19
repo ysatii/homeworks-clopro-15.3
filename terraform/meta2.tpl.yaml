@@ -1,0 +1,69 @@
+#cloud-config
+package_update: true
+packages:
+  - nginx
+  - unzip
+  - curl
+
+# --- Создаём AWS credentials для root и пользователя lamer ---
+write_files:
+  # креды для root (cloud-init работает от root)
+  - path: /root/.aws/credentials
+    owner: root:root
+    permissions: "0600"
+    content: |
+      [default]
+      aws_access_key_id = ${aws_access_key}
+      aws_secret_access_key = ${aws_secret_key}
+
+  - path: /root/.aws/config
+    owner: root:root
+    permissions: "0600"
+    content: |
+      [default]
+      region = ru-central1
+
+  # креды для пользователя lamer
+  - path: /home/lamer/.aws/credentials
+    owner: lamer:lamer
+    permissions: "0600"
+    content: |
+      [default]
+      aws_access_key_id = ${aws_access_key}
+      aws_secret_access_key = ${aws_secret_key}
+
+  - path: /home/lamer/.aws/config
+    owner: lamer:lamer
+    permissions: "0600"
+    content: |
+      [default]
+      region = ru-central1
+
+# --- Основные действия ---
+runcmd:
+  # Установка AWS CLI v2
+  - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "/root/awscliv2.zip"
+  - unzip /root/awscliv2.zip -d /root/
+  - /root/aws/install
+
+  # Проверяем, что AWS CLI работает
+  - aws --version >> /var/log/awscli-version.log
+
+
+
+  # Скачиваем файл из зашифрованного KMS-бакета
+  - aws --endpoint-url=https://storage.yandexcloud.net s3 cp s3://${bucket_name}/netology.png /var/www/html/netology.png
+
+  # Создаём index.html
+  - |
+      cat > /var/www/html/index.html << 'EOF'
+      <html>
+        <body>
+          <h1>Картинка из KMS-зашифрованного бакета</h1>
+          <img src="/netology.png" />
+        </body>
+      </html>
+      EOF
+
+  # Перезапуск nginx
+  - systemctl restart nginx
