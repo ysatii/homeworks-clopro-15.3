@@ -1,25 +1,25 @@
 # решение 1 
 Структура файлов
-── bucket.tf
-├── files
-│   ├── error.html
-│   ├── index.html
-│   └── netology.png
-├── index.tpl.yaml
-├── instance-group.tf
-├── instances.tf
-├── kms.tf
-├── loadbalancer.tf
-├── meta.txt
-├── networks.tf
-├── outputs.tf
-├── personal.auto.tfvars
-├── providers.tf
-├── service-account.tf
-├── terraform.tfstate
-├── terraform.tfstate.backup
-├── variables.tf
-└── versions.tf
+── bucket.tf  
+├── files  
+│   ├── error.html  
+│   ├── index.html  
+│   └── netology.png  
+├── index.tpl.yaml  
+├── instance-group.tf  
+├── instances.tf  
+├── kms.tf  
+├── loadbalancer.tf  
+├── meta.txt  
+├── networks.tf  
+├── outputs.tf  
+├── personal.auto.tfvars  
+├── providers.tf  
+├── service-account.tf  
+├── terraform.tfstate  
+├── terraform.tfstate.backup  
+├── variables.tf  
+└── versions.tf    
 
  
 
@@ -67,7 +67,7 @@ resource "yandex_storage_bucket" "static_site_bucket" ....
 terraform отработал без ошибок
 ![Рисунок 1](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_1.jpg) 
 
-
+Создан балансировщик
 ![Рисунок 2](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_2.jpg)  
 ![Рисунок 3](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_3.jpg)  
 ![Рисунок 4](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_4.jpg)  
