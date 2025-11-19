@@ -44,3 +44,10 @@ output "sa_secret_key" {
   value     = yandex_iam_service_account_static_access_key.sa_s3.secret_key
   sensitive = true
 }
+
+
+resource "yandex_resourcemanager_folder_iam_member" "sa_kms_encrypter_decrypter" {
+  folder_id = var.folder_id
+  role      = "kms.keys.encrypterDecrypter"
+  member    = "serviceAccount:${yandex_iam_service_account.sa.id}"
+}
