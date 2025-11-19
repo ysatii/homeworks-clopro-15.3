@@ -85,3 +85,14 @@ terraform отработал без ошибок
 
 Права ljcvnegf к сервисному аккаунту
 ![Рисунок 8](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_8.jpg)  
+
+ в принципе мы можем получить  какартингу из запороленного бакета для этого создадим машину в нее запишем ключи от сервисного аккаунта у установим aws  скачаем картинку и отдадим по http 
+
+ https://github.com/ysatii/homeworks-clopro-15.3/blob/main/terraform/meta2.tpl.yaml -  описывает порядок действий после создания машины 
+
+ ![Рисунок 9](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_9.jpg) 
+
+ для этого используем инстанс с внешним ип 
+ https://github.com/ysatii/homeworks-clopro-15.3/blob/main/terraform/instances%20copy.tf
+
+ 
