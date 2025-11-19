@@ -98,15 +98,30 @@ terraform отработал без ошибок
 
 
  # решение 2
+ сертификат в яндекс браузере
   ![Рисунок 10](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_10.jpg) 
+
+  описание сертификата в мозилле
   ![Рисунок 11](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_11.jpg) 
+
+  бакет с наполнением 
   ![Рисунок 12](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_12.jpg) 
+
+  настройки бакета
+
   ![Рисунок 13](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_13.jpg) 
+
+  сертификат ssl бакета - bucket.melnik-it.ru
   ![Рисунок 14](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_14.jpg) 
+
+  менеджер сертификатов
+
   ![Рисунок 15](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_15.jpg) 
+
+  журнал менеджера сертификатов , получение сертификата полность залогировано
   ![Рисунок 16](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_16.jpg) 
 
-  проверка записи на https://xseo.in/dns
+  проверка записи на https://xseo.in/dns 
   ![Рисунок 17](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_17.jpg) 
 
-  нужно зайти https://bucket.melnik-it.ru/  !
+  нужно зайти https://bucket.melnik-it.ru/  !   и http://bucket.melnik-it.ru.website.yandexcloud.net/  - это один и тотже бакет!
