@@ -22,6 +22,10 @@
 - [KMS key](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/kms_symmetric_key).
 
 --- 
+
+решение доступно по ссылке 
+[решение 1](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/task1/README.md)
+
 ## Задание 2*. AWS (задание со звёздочкой)
 
 Это необязательное задание. Его выполнение не влияет на получение зачёта по домашней работе.

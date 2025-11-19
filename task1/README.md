@@ -44,3 +44,11 @@ resource "yandex_storage_bucket" "static_site_bucket" ....
   }
 ```
 
+![Рисунок 1](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img1.jpg) 
+![Рисунок 2](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img2.jpg)  
+![Рисунок 3](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img3.jpg)  
+![Рисунок 4](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img4.jpg)  
+![Рисунок 5](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img5.jpg) 
+![Рисунок 6](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img6.jpg)  
+![Рисунок 7](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img7.jpg)  
+![Рисунок 8](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img8.jpg)  
