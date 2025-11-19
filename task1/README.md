@@ -69,9 +69,22 @@ terraform отработал без ошибок
 
 Создан балансировщик
 ![Рисунок 2](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_2.jpg)  
-![Рисунок 3](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_3.jpg)  
+
+Создан бакет
+![Рисунок 3](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_3.jpg) 
+
+Картинка в бакете зашифрована
+
 ![Рисунок 4](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_4.jpg)  
+
+Информация о ключах шифрования
 ![Рисунок 5](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_5.jpg) 
+
+пробуем получиь картинку, но она шифрована и доступ не возможен
 ![Рисунок 6](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_6.jpg)  
+
+посмотрим сервисный аккаунт
 ![Рисунок 7](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_7.jpg)  
+
+Права ljcvnegf к сервисному аккаунту
 ![Рисунок 8](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_8.jpg)  
