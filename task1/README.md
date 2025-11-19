@@ -95,4 +95,14 @@ terraform отработал без ошибок
  для этого используем инстанс с внешним ип 
  https://github.com/ysatii/homeworks-clopro-15.3/blob/main/terraform/instances%20copy.tf
 
- 
+
+
+ # решение 2
+  ![Рисунок 10](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_10.jpg) 
+  ![Рисунок 11](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_11.jpg) 
+  ![Рисунок 12](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_12.jpg) 
+  ![Рисунок 13](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_13.jpg) 
+  ![Рисунок 14](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_14.jpg) 
+  ![Рисунок 15](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_15.jpg) 
+  ![Рисунок 16](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_16.jpg) 
+  ![Рисунок 17](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img_17.jpg) 
