@@ -1,5 +1,25 @@
 # решение 1 
 Структура файлов
+── bucket.tf
+├── files
+│   ├── error.html
+│   ├── index.html
+│   └── netology.png
+├── index.tpl.yaml
+├── instance-group.tf
+├── instances.tf
+├── kms.tf
+├── loadbalancer.tf
+├── meta.txt
+├── networks.tf
+├── outputs.tf
+├── personal.auto.tfvars
+├── providers.tf
+├── service-account.tf
+├── terraform.tfstate
+├── terraform.tfstate.backup
+├── variables.tf
+└── versions.tf
 
  
 
@@ -29,7 +49,7 @@ resource "yandex_resourcemanager_folder_iam_member" "sa_kms_encrypter_decrypter"
 }
 ```
 
-Включаем шифрование бакета — правим
+## Включаем шифрование бакета — правим
 bucket.tf  
 resource "yandex_storage_bucket" "static_site_bucket" ....
 ```
@@ -44,11 +64,14 @@ resource "yandex_storage_bucket" "static_site_bucket" ....
   }
 ```
 
-![Рисунок 1](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img1.jpg) 
-![Рисунок 2](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img2.jpg)  
-![Рисунок 3](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img3.jpg)  
-![Рисунок 4](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img4.jpg)  
-![Рисунок 5](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img5.jpg) 
-![Рисунок 6](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img6.jpg)  
-![Рисунок 7](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img7.jpg)  
-![Рисунок 8](https://github.com/ysatii/homeworks-clopro-15.1/blob/main/img/img8.jpg)  
+terraform отработал без ошибок
+![Рисунок 1](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img1.jpg) 
+
+
+![Рисунок 2](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img2.jpg)  
+![Рисунок 3](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img3.jpg)  
+![Рисунок 4](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img4.jpg)  
+![Рисунок 5](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img5.jpg) 
+![Рисунок 6](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img6.jpg)  
+![Рисунок 7](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img7.jpg)  
+![Рисунок 8](https://github.com/ysatii/homeworks-clopro-15.3/blob/main/img/img8.jpg)  
